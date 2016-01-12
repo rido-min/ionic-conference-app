@@ -18,7 +18,9 @@ export class TutorialPage {
   }
 
   startApp() {
-    this.nav.push(TabsPage);
+      var opts: any = {};
+      opts.direction = "forward";
+      this.nav.push(TabsPage, {}, opts, function () { });
   }
 
   onSlideChange(event) {
