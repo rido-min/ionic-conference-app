@@ -29,4 +29,11 @@ $RECYCLE.BIN/
 Thumbs.db
 UserInterfaceState.xcuserstate
 
-*.js
+.vs/
+bin/
+bld/
+platforms/
+plugins/
+app/**/*.js
+app/**/*.js.map
+*.user
